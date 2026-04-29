@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/Header';
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
           <Outlet />
         </div>
       </main>
+      <Analytics />
     </div>
   );
 }
