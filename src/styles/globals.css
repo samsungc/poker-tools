@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-accent: #F4C430;
+  --color-accent-hover: #E0B528;
+  --color-bg: #FFFCF5;
+  --color-bg-dark: #0A0A0A;
+  --color-surface: #FFFFFF;
+  --color-surface-dark: #141414;
+  --color-header: #0E0E0E;
+  --color-text: #1A1A1A;
+  --color-text-dark: #F5F5F5;
+  --color-muted: #6B6B6B;
+  --color-muted-dark: #9A9A9A;
+  --color-border: #E5E5E5;
+  --color-border-dark: #2A2A2A;
+  --color-net-positive: #15803D;
+  --color-net-negative: #B91C1C;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--font-sans);
+  }
+  html.dark {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-dark);
+  }
+  body {
+    min-height: 100dvh;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  input,
+  button {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  *:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+@utility font-mono-caps {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.72rem;
+  font-weight: 500;
+}
