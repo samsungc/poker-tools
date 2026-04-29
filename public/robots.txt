@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.samsonchow.ca/sitemap.xml
+Sitemap: https://poker.samsonchow.ca/sitemap.xml

@@ -6,7 +6,7 @@ export default function Chips() {
     <>
       <SeoHead
         title="Poker Chip Distribution Calculator"
-        description="Work out the best chip distribution per buy-in for your home game. Tells you how many of each denomination per stack."
+        description="Calculate the ideal poker chip distribution for your home game buy-in. Enter your chip set and buy-in amount to get a balanced starting stack by denomination."
         path="/chips"
       />
       <ComingSoon

@@ -6,7 +6,7 @@ export default function Timer() {
     <>
       <SeoHead
         title="Poker Blinds Timer — Free Tournament Clock"
-        description="A simple, mobile-friendly blinds timer for home poker tournaments. Configurable rounds, sound alerts, runs in your browser."
+        description="A free, mobile-friendly poker blinds timer for home tournaments. Set custom round lengths and blind levels with sound alerts — no app or account needed."
         path="/timer"
       />
       <ComingSoon

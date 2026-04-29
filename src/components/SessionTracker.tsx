@@ -41,7 +41,7 @@ export default function SessionTracker() {
     <div className="flex flex-col gap-6">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-semibold leading-none tracking-tight">
-          Session Tracker
+          Poker Session Tracker
         </h1>
         <div className="flex gap-2">
           <Button variant="primary" onClick={() => addPlayer()}>
@@ -86,6 +86,18 @@ export default function SessionTracker() {
       <p className="mt-2 text-center text-xs text-[var(--color-muted)] dark:text-[var(--color-muted-dark)] sm:text-left">
         Net = Stack − Buy-in. Click any number to edit. <span className="font-mono-caps">+ Buy-in</span> prompts for an amount.
       </p>
+
+      <section
+        aria-label="About this tool"
+        className="border-t border-[var(--color-border)] pt-5 dark:border-[var(--color-border-dark)]"
+      >
+        <h2 className="mb-1.5 text-sm font-semibold">About the Poker Session Tracker</h2>
+        <p className="text-xs leading-relaxed text-[var(--color-muted)] dark:text-[var(--color-muted-dark)]">
+          Track every player's buy-ins, rebuys, and final stack for your home poker game.
+          Net profit and loss update live as you enter numbers — no account, no app download,
+          and no sign-up needed. Your session data stays in your browser.
+        </p>
+      </section>
 
       <ResetDialog
         open={resetOpen}

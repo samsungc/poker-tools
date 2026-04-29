@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.samsonchow.ca/</loc>
+    <loc>https://poker.samsonchow.ca/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.samsonchow.ca/timer</loc>
+    <loc>https://poker.samsonchow.ca/timer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samsonchow.ca/chips</loc>
+    <loc>https://poker.samsonchow.ca/chips</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samsonchow.ca/bomb-pot</loc>
+    <loc>https://poker.samsonchow.ca/bomb-pot</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -6,7 +6,7 @@ export default function BombPot() {
     <>
       <SeoHead
         title="Bomb Pot Helper for Home Poker"
-        description="Bomb pot rules cheat-sheet and randomizer for home games. Pick a frequency, decide between PLO and NLHE, never argue at the table again."
+        description="Bomb pot cheat-sheet and randomizer for home poker. Set frequency and variant — NLHE, PLO, double-board — and stop arguing about bomb pot rules at the table."
         path="/bomb-pot"
       />
       <ComingSoon

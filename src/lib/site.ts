@@ -1,5 +1,5 @@
 export const SITE = {
-  url: 'https://www.samsonchow.ca',
+  url: 'https://poker.samsonchow.ca',
   name: 'PokerTools',
   defaultTitle: 'PokerTools — Free Home Game Tools',
   defaultDescription:
